@@ -48,7 +48,7 @@ cargo build --release
 Download the config file
 ```bash
 rm -rf $HOME//0g-storage-kv/run/config.toml
-wget -P $HOME//0g-storage-kv/run/ https://github.com/fallblight/Storage-KV-Setup-Zero-Gravity-0G/blob/main/config.toml
+wget -P $HOME//0g-storage-kv/run/ https://raw.githubusercontent.com/fallblight/Storage-KV-Setup-Zero-Gravity-0G/refs/heads/main/config.toml
 ```
 You can use community RPC or your own RPC
 ```bash
